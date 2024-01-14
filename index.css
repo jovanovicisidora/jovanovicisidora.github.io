@@ -118,9 +118,8 @@ footer {
     font-size: 2em;
   }
 
-  nav a {
-    font-size: 1em;
-    margin: 0 10px;
+  p {
+    width: 100%;
   }
 
   .container {
@@ -129,7 +128,11 @@ footer {
   }
 
   .card {
-    width: 100%;
+    width: 10%;
     margin-right: 0;
+  }
+
+  .card:last-child {
+    margin-bottom: 0;
   }
 }
